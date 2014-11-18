@@ -1,0 +1,4 @@
+D:\Users\yutaro\SkyDrive\ドキュメント\KMC\procon2014\codeforces\274\a\a\bin\Debug\a.exe
+D:\Users\yutaro\SkyDrive\ドキュメント\KMC\procon2014\codeforces\274\a\a\bin\Debug\a.pdb
+D:\Users\yutaro\SkyDrive\ドキュメント\KMC\procon2014\codeforces\274\a\a\obj\x86\Debug\a.exe
+D:\Users\yutaro\SkyDrive\ドキュメント\KMC\procon2014\codeforces\274\a\a\obj\x86\Debug\a.pdb
