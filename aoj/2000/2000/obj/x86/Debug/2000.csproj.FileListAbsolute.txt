@@ -1,0 +1,4 @@
+D:\Users\yutaro\Documents\github\procon\aoj\2000\2000\bin\Debug\2000.exe
+D:\Users\yutaro\Documents\github\procon\aoj\2000\2000\bin\Debug\2000.pdb
+D:\Users\yutaro\Documents\github\procon\aoj\2000\2000\obj\x86\Debug\2000.exe
+D:\Users\yutaro\Documents\github\procon\aoj\2000\2000\obj\x86\Debug\2000.pdb

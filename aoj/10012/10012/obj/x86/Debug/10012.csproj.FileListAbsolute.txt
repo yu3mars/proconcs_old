@@ -1,0 +1,4 @@
+D:\Users\yutaro\Documents\github\procon\aoj\10012\10012\bin\Debug\10012.exe
+D:\Users\yutaro\Documents\github\procon\aoj\10012\10012\bin\Debug\10012.pdb
+D:\Users\yutaro\Documents\github\procon\aoj\10012\10012\obj\x86\Debug\10012.exe
+D:\Users\yutaro\Documents\github\procon\aoj\10012\10012\obj\x86\Debug\10012.pdb
