@@ -10,7 +10,6 @@ namespace _1186
         static void Main(string[] args)
         {
             int[][] xs = new int[11175][];
-            int[] sq = new int[11175];
             int[] x = new int[11175];
             int cnt = 0;
             for (int i = 1; i <= 150; i++)
@@ -19,16 +18,11 @@ namespace _1186
                 {
                     int[] tmp = { j, i };
                     xs[cnt] = tmp;
-                    x[cnt] = j;
+                    x[cnt] = (i * i + j * j) * 1000 + j;
                     cnt += 1;
                 }
             }
             Array.Sort(x, xs);
-            for (int i = 0; i < xs.Length; i++)
-            {
-                sq[i] = xs[i][0] * xs[i][0] + xs[i][1] * xs[i][1];
-            }
-            Array.Sort(sq, xs);
             for (; ; )
             {
                 string[] str = Console.ReadLine().Split(' ');
