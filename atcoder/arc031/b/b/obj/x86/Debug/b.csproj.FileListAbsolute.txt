@@ -1,4 +1,0 @@
-D:\Users\yutaro\Documents\github\procon\atcoder\arc031\b\b\bin\Debug\b.exe
-D:\Users\yutaro\Documents\github\procon\atcoder\arc031\b\b\bin\Debug\b.pdb
-D:\Users\yutaro\Documents\github\procon\atcoder\arc031\b\b\obj\x86\Debug\b.exe
-D:\Users\yutaro\Documents\github\procon\atcoder\arc031\b\b\obj\x86\Debug\b.pdb
