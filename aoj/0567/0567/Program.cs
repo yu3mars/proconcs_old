@@ -10,46 +10,35 @@ namespace _0567
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            string[] str = Console.ReadLine().Split(' ');
-            int baseprice = int.Parse(str[0]);
-            int totalcal = int.Parse(Console.ReadLine());
-            int toppingprice = int.Parse(str[1]);
-            int ans = totalcal / baseprice;
+            string[] ab = Console.ReadLine().Split(' ');
+            int a = int.Parse(ab[0]);
+            int b = int.Parse(ab[1]);
+            int c = int.Parse(Console.ReadLine());
+            int[] d = new int[n];
+            for (int i = 0; i < n; i++)
+            {
+                d[i] = int.Parse(Console.ReadLine());
+            }
+            Array.Sort(d);
+            Array.Reverse(d);
 
-            int[] toppings = new int[n];
+            int cal = c;
+            int caldol = c / a;            
             for (int i = 0; i < n; i++)
             {
-                toppings[i] = int.Parse(Console.ReadLine());
-            }
-            int cnt = n;
-            for (int i = 0; i < n; i++)
-            {
-                for (int j = 0; j < cnt-1; j++)
+                int tmp = cal + d[i];
+                int tmpdol = tmp / (a + b * (i + 1));
+                if (tmpdol >= caldol)
                 {
-                    if (toppings[j] < toppings[j + 1])
-                    {
-                        int tmp = toppings[j];
-                        toppings[j] = toppings[j + 1];
-                        toppings[j + 1] = tmp;
-                    }
-                }
-                cnt -= 1;
-            }
-            for (int i = 0; i < n; i++)
-            {
-                int nextcal = toppings[i];
-                totalcal += nextcal;
-                int nextans = totalcal / (baseprice + toppingprice * (i+1));
-                if (ans < nextans)
-                {
-                    ans = nextans;
+                    cal = tmp;
+                    caldol = tmpdol;
                 }
                 else
                 {
                     break;
                 }
             }
-            Console.WriteLine(ans);
+            Console.WriteLine(caldol);
         }
     }
 }
