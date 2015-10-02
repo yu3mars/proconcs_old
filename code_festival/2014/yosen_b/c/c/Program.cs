@@ -9,80 +9,34 @@ namespace c
     {
         static void Main(string[] args)
         {
-            char[] a = Console.ReadLine().ToCharArray();
-            char[] b = Console.ReadLine().ToCharArray();
-            char[] c = Console.ReadLine().ToCharArray();
-            SortedList<char, int> al = new SortedList<char, int>();
-            SortedList<char, int> bl = new SortedList<char, int>();
-            SortedList<char, int> cl = new SortedList<char, int>();
-            int n = a.Length / 2;
-            foreach (char s in a)
+            char[] ca = Console.ReadLine().ToCharArray();
+            char[] cb = Console.ReadLine().ToCharArray();
+            char[] cc = Console.ReadLine().ToCharArray();
+            int n = ca.Length / 2;
+            int[] ia = new int[26];
+            int[] ib = new int[26];
+            int[] ic = new int[26];
+            foreach (char c in ca)
             {
-                if (al.ContainsKey(s))
-                {
-                    al[s] += 1;
-                }
-                else
-                {
-                    al.Add(s, 1);
-                }
-            }
-            foreach (char s in b)
+                ia[c - 'A'] += 1;
+            } 
+            foreach (char c in cb)
             {
-                if (bl.ContainsKey(s))
-                {
-                    bl[s] += 1;
-                }
-                else
-                {
-                    bl.Add(s, 1);
-                }
-            }
-            foreach (char s in c)
+                ib[c - 'A'] += 1;
+            } 
+            foreach (char c in cc)
             {
-                if (cl.ContainsKey(s))
-                {
-                    cl[s] += 1;
-                }
-                else
-                {
-                    cl.Add(s, 1);
-                }
-                if (al.ContainsKey(s) == false)
-                {
-                    al.Add(s, 0);
-                }
-                if (bl.ContainsKey(s) == false)
-                {
-                    bl.Add(s, 0);
-                }
-                if (al[s] + bl[s] < cl[s])
-                {
-                    Console.WriteLine("NO");
-                    return;
-                }
+                ic[c - 'A'] += 1;
             }
-            int aneed = 0;
-            int bneed = 0;
-            int either = 0;
-            foreach (char s in cl.Keys)
+            int amin = 0;
+            int amax = 0;
+
+            for (int i = 0; i < 26; i++)
             {
-                if (al[s] <= cl[s])
-                {
-                    bneed += cl[s] - al[s];
-                    either += al[s];
-                }
-                else if (bl[s] <= cl[s])
-                {
-                    aneed += cl[s] - bl[s];
-                    either += bl[s];
-                }
-                else
-                {
-                    either += cl[s];
-                }
+                amin += Math.Max(0, ic[i] - ib[i]);
+                amax += Math.Min(ia[i], ic[i]);
             }
-            if (aneed <= n && bneed <= n)
+            if (amin <= n && n <= amax)
             {
                 Console.WriteLine("YES");
             }

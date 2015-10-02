@@ -6,3 +6,7 @@ D:\Users\yutaro\SkyDrive\ドキュメント\KMC\procon2014\code_festival\yosen_b
 D:\Users\yutaro\SkyDrive\ドキュメント\KMC\procon2014\code_festival\yosen_b\c\c\obj\x86\Debug\c.pdb
 D:\Users\yutaro\SkyDrive\ドキュメント\KMC\procon2014\code_festival\yosen_b\c\c\bin\Debug\c.exe
 D:\Users\yutaro\SkyDrive\ドキュメント\KMC\procon2014\code_festival\yosen_b\c\c\bin\Debug\c.pdb
+D:\Users\yutaro\Documents\git\procon\code_festival\2014\yosen_b\c\c\obj\x86\Debug\c.exe
+D:\Users\yutaro\Documents\git\procon\code_festival\2014\yosen_b\c\c\obj\x86\Debug\c.pdb
+D:\Users\yutaro\Documents\git\procon\code_festival\2014\yosen_b\c\c\bin\Debug\c.exe
+D:\Users\yutaro\Documents\git\procon\code_festival\2014\yosen_b\c\c\bin\Debug\c.pdb
