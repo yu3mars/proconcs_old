@@ -1,8 +1,0 @@
-D:\Users\yutaro\SkyDrive\ドキュメント\KMC\procon2014\code_festival\d\d\bin\Debug\d.exe
-D:\Users\yutaro\SkyDrive\ドキュメント\KMC\procon2014\code_festival\d\d\bin\Debug\d.pdb
-D:\Users\yutaro\SkyDrive\ドキュメント\KMC\procon2014\code_festival\d\d\obj\x86\Debug\d.exe
-D:\Users\yutaro\SkyDrive\ドキュメント\KMC\procon2014\code_festival\d\d\obj\x86\Debug\d.pdb
-D:\Users\yutaro\SkyDrive\ドキュメント\KMC\procon2014\code_festival\yosen_a\d\d\obj\x86\Debug\d.exe
-D:\Users\yutaro\SkyDrive\ドキュメント\KMC\procon2014\code_festival\yosen_a\d\d\obj\x86\Debug\d.pdb
-D:\Users\yutaro\SkyDrive\ドキュメント\KMC\procon2014\code_festival\yosen_a\d\d\bin\Debug\d.exe
-D:\Users\yutaro\SkyDrive\ドキュメント\KMC\procon2014\code_festival\yosen_a\d\d\bin\Debug\d.pdb

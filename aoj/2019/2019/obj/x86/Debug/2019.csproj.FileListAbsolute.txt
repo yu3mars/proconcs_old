@@ -1,4 +1,0 @@
-D:\Users\yutaro\Documents\github\procon\aoj\2019\2019\bin\Debug\2019.exe
-D:\Users\yutaro\Documents\github\procon\aoj\2019\2019\bin\Debug\2019.pdb
-D:\Users\yutaro\Documents\github\procon\aoj\2019\2019\obj\x86\Debug\2019.exe
-D:\Users\yutaro\Documents\github\procon\aoj\2019\2019\obj\x86\Debug\2019.pdb

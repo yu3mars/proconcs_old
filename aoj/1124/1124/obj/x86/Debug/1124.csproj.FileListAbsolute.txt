@@ -1,4 +1,0 @@
-D:\Users\yutaro\Documents\github\procon\aoj\1124\1124\bin\Debug\1124.exe
-D:\Users\yutaro\Documents\github\procon\aoj\1124\1124\bin\Debug\1124.pdb
-D:\Users\yutaro\Documents\github\procon\aoj\1124\1124\obj\x86\Debug\1124.exe
-D:\Users\yutaro\Documents\github\procon\aoj\1124\1124\obj\x86\Debug\1124.pdb

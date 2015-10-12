@@ -1,4 +1,0 @@
-D:\Users\yutaro\SkyDrive\ドキュメント\KMC\procon2014\proconcs\0521\0521\bin\Debug\0521.exe
-D:\Users\yutaro\SkyDrive\ドキュメント\KMC\procon2014\proconcs\0521\0521\bin\Debug\0521.pdb
-D:\Users\yutaro\SkyDrive\ドキュメント\KMC\procon2014\proconcs\0521\0521\obj\x86\Debug\0521.exe
-D:\Users\yutaro\SkyDrive\ドキュメント\KMC\procon2014\proconcs\0521\0521\obj\x86\Debug\0521.pdb

@@ -1,4 +1,0 @@
-D:\Users\yutaro\Documents\github\procon\aoj\2185\2185\bin\Debug\2185.exe
-D:\Users\yutaro\Documents\github\procon\aoj\2185\2185\bin\Debug\2185.pdb
-D:\Users\yutaro\Documents\github\procon\aoj\2185\2185\obj\x86\Debug\2185.exe
-D:\Users\yutaro\Documents\github\procon\aoj\2185\2185\obj\x86\Debug\2185.pdb
