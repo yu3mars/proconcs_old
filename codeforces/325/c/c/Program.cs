@@ -10,25 +10,25 @@ namespace c
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            List<int[]> ls = new List<int[]>();
+            List<long[]> ls = new List<long[]>();
             for (int i = 0; i < n; i++)
             {
                 string[] cstr = Console.ReadLine().Split(' ');
-                int[] cint = new int[4];
+                long[] cint = new long[4];
                 for (int j = 0; j < 3; j++)
                 {
-                    cint[j] = int.Parse(cstr[j]);
+                    cint[j] = long.Parse(cstr[j]);
                 }
                 cint[3] = i + 1;
                 ls.Add(cint);
             }
             int cnt = 0;
-            List<int> ans = new List<int>();
+            List<long> ans = new List<long>();
             while (ls.Count > 0)
             {
                 cnt++;
                 ans.Add(ls[0][3]);
-                int v = ls[0][0];
+                long v = ls[0][0];
                 for (int i = 1; i < ls.Count; i++)
                 {
                     if (v > 0)
