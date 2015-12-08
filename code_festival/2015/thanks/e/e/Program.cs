@@ -31,8 +31,7 @@ namespace e
                     {
                         if (cnt1 > 0 && used[s[0][cnt0] - 'a'] == true)
                         {
-                            //dame
-                            break;
+                            cnt1 = 0;
                         }
                         else
                         {
